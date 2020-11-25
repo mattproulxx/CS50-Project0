@@ -1,0 +1,130 @@
+.changepage, a { 
+    color:black;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       margin: 20px;
+       text-align: right;
+       font-size: 14px;
+     
+   }
+   
+   #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    position: relative;
+    top: 125px;
+
+
+   }
+
+
+    #searchbar {
+    border-radius: 40px;
+    color: black;
+    font-size: 16px;
+    font-family: arial;
+    width: 600px;
+    height: 45px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    position: absolute;
+    top: 400px;
+
+   }
+
+   #buttons {
+
+    position: absolute;
+    top:475px;
+    display: block;
+    left: 0px; 
+    right: 160px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 10%;
+
+   }
+
+   #buttoni {
+
+    position: absolute;
+    top:475px;
+    display: block;
+    left: 160px; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 12%;
+    
+   }
+   
+   
+   #button {
+
+    position: absolute;
+    top:475px;
+    display: block;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 10%;
+
+   }
+
+   #button2 {
+
+    position: absolute;
+    top:475px;
+    display: block;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 10%;
+
+   }
+
+
+   #button3 {
+
+    position: absolute;
+    top:450px;
+    display: block;
+    left: 707px; 
+    width: 10%;
+    height:4%;
+    font: bold;
+    font-size: 12px;
+    font-weight:bold;
+
+   }
+
+
+   #advsearchbar {
+    width: 600px;
+    height: 30px;
+    position: relative;
+    left: 200px;
+    top: -25px;
+    color:black;
+    font-family: arial;
+    font-size: 12px;
+   }
+
+   .topbar {
+
+    color:black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: right;
+    font-size: 16px;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    padding:20px;
+
+     }

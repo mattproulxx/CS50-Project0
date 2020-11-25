@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    
+    <Style>  
+   
+   #searchtext{ 
+
+    color:black;
+    font-family: arial;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 40px;
+    } 
+
+    #pic{
+
+    width:8%;
+    float: left;
+    position:absolute;
+    left: 30px;
+    top:-5px;
+
+    }
+
+
+     h4 {
+        color: #D80101;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 25px;
+        margin-left: 40px;
+     }
+     h6 {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin:40px;
+     }
+
+    
+    
+    </Style>
+
+    </head>
+    <body> 
+        <div class="topbar">
+            <img id="pic" src="https://download.logo.wine/logo/Google/Google-Logo.wine.png" alt="Google Logo">
+            <a style=margin:10px href='search.html'>Google Search</a>
+            <a href='image-search.html'>Image Search</a>  
+        </div>
+
+        
+        <h4>Advanced Search</h4>
+
+        <hr>
+
+        <h6>Find pages with...</h6>
+        
+        <div id="searchtext"><form action="https://google.com/search">
+            all these words:<input id="advsearchbar" class="form-control form-control-lg" name="as_q" type="text">
+            this exact word or phrase: <input id="advsearchbar" class="form-control form-control-lg" name="as_epq" type="text">
+            any of these words:<input id="advsearchbar" class="form-control form-control-lg" name="as_oq" type="text">
+            none of these words:<input id="advsearchbar" class="form-control form-control-lg" name="as_eq" type="text">
+            <input id='button3' type="submit" value="Advanced Search" button type="button" class="btn btn-primary btn-lg btn-block">
+        </div>
+        </form>
+        
+    
+    </body>
+
+
+</html>
